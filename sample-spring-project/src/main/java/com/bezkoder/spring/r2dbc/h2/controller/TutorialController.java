@@ -30,10 +30,12 @@ public class TutorialController {
   @GetMapping("/tutorials")
   @ResponseStatus(HttpStatus.OK)
   public Flux<Tutorial> getAllTutorials(@RequestParam(required = false) String title) {
-    if (title == null)
+    if (title == null) {
       return tutorialService.findAll();
-    else
+    }
+    else {
       return tutorialService.findByTitleContaining(title);
+    }
   }
 
   @GetMapping("/tutorials/{id}")
