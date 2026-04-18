@@ -9,7 +9,7 @@
 		<module name="UnusedImports"/>
 		<module name="NeedBraces"/>
 		<module name="Indentation">
-			<property name="basicOffset" value="3"/>
+			<property name="basicOffset" value="2"/>
 		</module>
 	</module>
 </module>
