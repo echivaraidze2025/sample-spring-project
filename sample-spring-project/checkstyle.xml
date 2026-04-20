@@ -8,8 +8,8 @@
 		<module name="AvoidStarImport"/>
 		<module name="UnusedImports"/>
 		<module name="NeedBraces"/>
-		<module name="Indentation">
-			<property name="basicOffset" value="2"/>
-		</module>
+<!--		<module name="Indentation">-->
+<!--			<property name="basicOffset" value="4"/>-->
+<!--		</module>-->
 	</module>
 </module>
